@@ -19,21 +19,37 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 5. Interact with your Discord bot via your web browser or local client
 
 ## Usage
-[`!clear`](commands/clear.js)
-`!start`
-`!newprofile`
-`!bank`
-`!id`
-`!withdraw`
-`!chips`
-`!play`
-`!deal`
-`!quit`
-`!end`
 
-## Functions written but buggy
-`!list`
-`!options`
-`!add`
-`!purge`
-`!gamestatus`
+[`!clear`](commands/clear.js)
+
+[`!start`](commands/start.js)
+
+[`!newprofile`](commands/newprofile.js)
+
+[`!bank`](commands/bank.js)
+
+[`!id`](commands/id.js)
+
+[`!withdraw`](commands/withdraw.js)
+
+[`!chips`](commands/chips.js)
+
+[`!play`](commands/play.js)
+
+[`!deal`](commands/deal.js)
+
+[`!quit`](commands/quit.js)
+
+[`!end`](commands/end.js)
+
+## Functions that written but buggy
+
+[`!list`](commands/list.js)
+
+[`!options`](commands/options.js)
+
+[`!add`](commands/add.js)
+
+[`!purge`](commands/purge.js)
+
+[`!gamestatus`](commands/gamestatus.js)
