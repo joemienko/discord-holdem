@@ -1,0 +1,24 @@
+{
+  "name": "discord-holdem",
+  "version": "1.0.0",
+  "description": "A discord bot built on Node.js for simple Hold'em",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemienko/discord-holdem.git"
+  },
+  "author": "Jeff Kim, Tim Chun, Jhonny Guo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joemienko/discord-holdem/issues"
+  },
+  "homepage": "https://github.com/joemienko/discord-holdem.git#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.1.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
