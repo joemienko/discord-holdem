@@ -8,7 +8,7 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 
 - [Node.js](http://nodejs.org/)
 - [Discord](https://discordapp.com/) account
-- A discord server set up according to the instructions [here]([https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
+- A discord server set up according to the instructions [here](https://www.sitepoint.com/discord-bot-node-js/).
 
 ## Installation Steps (if applicable)
 
