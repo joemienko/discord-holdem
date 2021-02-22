@@ -26,6 +26,8 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 
 [`!newprofile`](commands/newprofile.js)
 
+[`!add`](commands/add.js)
+
 [`!bank`](commands/bank.js)
 
 [`!id`](commands/id.js)
@@ -47,8 +49,6 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 [`!list`](commands/list.js)
 
 [`!options`](commands/options.js)
-
-[`!add`](commands/add.js)
 
 [`!purge`](commands/purge.js)
 

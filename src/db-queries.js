@@ -8,7 +8,7 @@ module.exports = {
 
   createProfileTable(db) {
     const query = db.prepare(
-      'CREATE TABLE IF NOT EXISTS profiles (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, user_id INTEGER, chips INTEGER);'
+      'CREATE TABLE IF NOT EXISTS profiles (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, user_id TEXT, chips INTEGER);'
     );
     query.run();
   },
@@ -89,7 +89,7 @@ module.exports = {
     let query = db.prepare(command);
 
     for (const player of query.iterate()) {
-      players.push(player.id);
+      players.push(player.user_id);
     }
 
     return players;

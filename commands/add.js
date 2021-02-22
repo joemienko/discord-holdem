@@ -15,7 +15,7 @@ module.exports = {
 
     let exists = queries.tableEntryExists(
       db,
-      message.author.username,
+      message.author.id,
       'profiles'
     );
     if (exists) {
