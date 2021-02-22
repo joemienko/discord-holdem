@@ -38,6 +38,8 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 
 [`!play`](commands/play.js)
 
+[`!list`](commands/list.js)
+
 [`!deal`](commands/deal.js)
 
 [`!quit`](commands/quit.js)
@@ -45,8 +47,6 @@ This repo is currently being used as a node tutorial for my son. Any substantive
 [`!end`](commands/end.js)
 
 ## Functions that written but buggy
-
-[`!list`](commands/list.js)
 
 [`!options`](commands/options.js)
 
