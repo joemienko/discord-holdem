@@ -15,7 +15,7 @@ module.exports = {
 
   createPlayerTable(db) {
     const query = db.prepare(
-      'CREATE TABLE IF NOT EXISTS players (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, user_id INTEGER, chips INTEGER, cards TEXT);'
+      'CREATE TABLE IF NOT EXISTS players (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, user_id TEXT, chips INTEGER, cards TEXT);'
     );
     query.run();
   },
