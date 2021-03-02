@@ -1,7 +1,9 @@
 const pokercommands = require('../src/poker');
 const constants = require('../constants/poker-constants');
+
 const Database = require('better-sqlite3');
 const path = require('path');
+
 
 const { PLAYERS } = require('../constants/game-constants');
 
@@ -28,21 +30,18 @@ module.exports = {
         );
 
         let hand = pokercommands.randomCardsFromDeck(state.deck, 2);
-        queries.setCards(db, message.author.id, hand);
+        queries.setCards(db, players[i], hand);
         let files = [];
         hand.map((card) => {
           files.push(pokercommands.getCard(card, constants));
         });
 
-        client.channels.cache.get(channel.id).send('Here are your cards!', {
+        client.users.fetch(players[i]).then((user) => { 
+          user.send('Here are your cards!', {
           files: files,
         });
       });
-      /*
-      message.channel.send('Here are the first three for the river.', {
-        files: pokercommands.removeRandomCardsFromDeck(state.decks, 3),
       });
-      */
   }
   },
 };
